@@ -77,8 +77,8 @@ button:hover {
 
 .navbar .navbar-nav a {
   text-decoration: none;
-  color: #fff;
-  transition: color 0.3s ease;
+  color: #f5d7db;
+  transition: all 0.3s ease;
 }
 
 .navbar .navbar-nav a:hover {
@@ -87,7 +87,10 @@ button:hover {
 
 /* Gaya untuk tautan navigasi yang aktif pada mode desktop */
 .navbar .active a {
-  color: #ff4500;
+  color: #fff;
+  font-weight: 600;
+  border-bottom: 3px #f5d7db solid;
+  border-radius: 4px;
 }
 .navbar .navbar-toggler {
   display: none;
@@ -97,7 +100,7 @@ button:hover {
   text-decoration: none;
   font-size: 2.4rem;
   font-weight: 900;
-  color: #dd2c2c !important;
+  color: #f5d7db !important;
   display: block;
 }
 
